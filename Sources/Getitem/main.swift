@@ -6,11 +6,6 @@ import Foundation
 struct SliceSpec {
     var start: Int?
     var end: Int?
-    
-    init(start: Int?, end: Int?) {
-        self.start = start
-        self.end = end
-    }
 }
 
 // MARK: - Parsing Slice Specification
